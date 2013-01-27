@@ -8,13 +8,25 @@
 
 
 
+body {
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
 
-
-
-
-
-
-
+.topics {
+	background-color: #EEEEEE;
+	border-radius: 3px 3px 3px 3px;
+	padding: 15px 10px;
+	color: #222;
+}
+.topics dt {
+	margin-top: 8px;
+	padding-top: 8px;
+	border-top: 1px dashed #ccc;
+}
+.topics dt:first-child {
+	margin-top: 0;
+	border: none;
+}
 
 
 
