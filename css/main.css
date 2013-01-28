@@ -44,4 +44,25 @@ footer p {
 	color: #888;
 }
 
+.profile {
+	padding: 10px;
+	position: relative;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 4px 4px 4px 4px;
+}
+.profile img {
+	width: 160px;
+	float: right;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.profile p {
+	font-size: 90%;
+	margin-top: 15px;
+}
+.profile .history {
+	padding: 10px;
+	color: #333;
+}
+
 
