@@ -12,7 +12,10 @@ body {
 	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	background-image: url('../img/b_body2.jpg');
 }
-
+.nav-caption {
+	font-size: 80%;
+	color: #888;
+}
 .topics {
 	background-color: #EEEEEE;
 	border-radius: 3px 3px 3px 3px;
