@@ -1,0 +1,7 @@
+<?php
+	$ROOT_URL = "";
+	$BOOK_URL = "";
+	$BLOG_SUZUKI_URL = "";
+	$BLOG_KANOJO_URL = "";
+	$GA_ID = "";
+?>
