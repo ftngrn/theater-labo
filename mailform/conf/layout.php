@@ -97,7 +97,7 @@ $FOOTER=<<<_END_
 							Copyright &copy; 2012 Hokkaido Arts Foundation. All rights reserved.
 						</p>
 						<p>
-							財団法人北海道文化財団
+							公益財団法人北海道文化財団
 							<br />〒060-0042　北海道札幌市中央区大通西5丁目11　大五ビルヂング 3階
 							<br />TEL 011-272-0501　FAX 011-272-0400 
 						</p>
