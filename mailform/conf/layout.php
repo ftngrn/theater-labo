@@ -55,8 +55,8 @@ $HEADER=<<<_END_
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">ブログ <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">イトウワカナ</a></li>
-									<li><a href="#">小佐部明広</a></li>
+									<li><a href="http://blog.livedoor.jp/labo_intro/">introチーム<br/>「鈴木１４世」</a></li>
+									<li><a href="http://blog.livedoor.jp/labo_atelier/">劇団アトリエチーム<br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
 							<li class="active"><a href="/theater-labo/mailform/">web予約</a></li>
