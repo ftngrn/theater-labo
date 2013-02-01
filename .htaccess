@@ -1,2 +1,7 @@
-AddType application/x-httpd-php .html
+# For apache moduled php
+#AddType application/x-httpd-php .html
+
+# For cgi php
+AddHandler myphp-script .html
+Action myphp-script /theater-labo/php.cgi
 
