@@ -1,0 +1,24 @@
+{$HEADER}
+
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="span8 offset4">
+					<h2>エラーが発生しました</h2>
+					<p>お手数をおかけしますが、再度、web予約フォームからご予約して下さい。</p>
+					<br />
+
+					<h3>web予約フォームへ戻る</h3>
+					<p><a href="./" class="arrow">web予約フォームへ戻る</a></p>
+					<br />
+
+					{if:$global_error_flag}
+					<ul>
+						{loop:$global_error}
+						<li><em>{$global_error[]}</em></li>
+						{/loop:$global_error}
+					</ul>
+					{/if:$global_error_flag}
+				</div>
+			</div>
+
+{$FOOTER}
