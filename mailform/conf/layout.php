@@ -1,4 +1,14 @@
 <?php
+define('PUB_URL_ENABLED', false);
+define('PUB_URL', 'http://haf.jp/~butajyuku/');
+define('FORM_ROOT_URL', 'http://aglio.yhsweb.jp/theater-labo/');
+
+$ROOT_URL = FORM_ROOT_URL;
+if (defined('PUB_URL_ENABLED') && PUB_URL_ENABLED === true) {
+	$ROOT_URL = PUB_URL;
+}
+//var_dump($ROOT_URL, PUB_URL, PUB_URL_ENABLED, defined('PUB_URL_ENABLED'));
+
 $HEADER=<<<_END_
 <!DOCTYPE html>
 <!--[if lt IE 7]>	  <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -12,17 +22,17 @@ $HEADER=<<<_END_
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 
-		<link rel="stylesheet" href="http://haf.jp/~butaijyuku/css/bootstrap.min.css">
+		<link rel="stylesheet" href="${ROOT_URL}css/bootstrap.min.css">
 		<style>
 			body {
 				padding-top: 60px;
 				padding-bottom: 40px;
 			}
 		</style>
-		<link rel="stylesheet" href="http://haf.jp/~butaijyuku/css/bootstrap-responsive.min.css">
-		<link rel="stylesheet" href="http://haf.jp/~butaijyuku/css/main.css">
+		<link rel="stylesheet" href="${ROOT_URL}css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="${ROOT_URL}css/main.css">
 
-		<script src="http://haf.jp/~butaijyuku/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="${ROOT_URL}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 		<!--[if lt IE 9]>
@@ -39,17 +49,17 @@ $HEADER=<<<_END_
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="http://haf.jp/~butaijyuku/"><strong>シアターラボ札幌</strong> <small>プレ公演</small></a>
+					<a class="brand" href="${ROOT_URL}"><strong>シアターラボ札幌</strong> <small>プレ公演</small></a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class=""><a href="http://haf.jp/~butaijyuku/">ホーム</a></li>
-							<li class=""><a href="http://haf.jp/~butaijyuku/about.html">シアターラボについて</a></li>
-							<li class=""><a href="http://haf.jp/~butaijyuku/info.html">公演情報</a></li>
+							<li class=""><a href="${ROOT_URL}">ホーム</a></li>
+							<li class=""><a href="${ROOT_URL}about.html">シアターラボについて</a></li>
+							<li class=""><a href="${ROOT_URL}info.html">公演情報</a></li>
 							<li class="dropdown ">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">作品紹介 <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li class=""><a href="http://haf.jp/~butaijyuku/suzuki.html"><span class="nav-caption">柴幸男 × イトウワカナ</span><br/>「鈴木１４世」</a></li>
-									<li class=""><a href="http://haf.jp/~butaijyuku/kanojo.html"><span class="nav-caption">泊篤志 × 小佐部明広</span><br/>「彼女のスープレックス」</a></li>
+									<li class=""><a href="${ROOT_URL}suzuki.html"><span class="nav-caption">柴幸男 × イトウワカナ</span><br/>「鈴木１４世」</a></li>
+									<li class=""><a href="${ROOT_URL}kanojo.html"><span class="nav-caption">泊篤志 × 小佐部明広</span><br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -59,7 +69,7 @@ $HEADER=<<<_END_
 									<li><a href="http://blog.livedoor.jp/labo_atelier/">劇団アトリエチーム<br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
-							<li class="active"><a href="http://haf.jp/~butaijyuku/mailform/">web予約</a></li>
+							<li class="active"><a href="${ROOT_URL}mailform/">web予約</a></li>
 						</ul>
 					</div>
 				</div>
@@ -70,10 +80,10 @@ $HEADER=<<<_END_
 
 			<div class="row">
 							<div class="span7">
-					<img src="http://haf.jp/~butaijyuku/img/logo.png" />
+					<img src="${ROOT_URL}img/logo.png" />
 				</div>
 				<div class="span5">
-					<img src="http://haf.jp/~butaijyuku/img/date.png" style="margin-top:22px;" />
+					<img src="${ROOT_URL}img/date.png" style="margin-top:22px;" />
 				</div>
 			</div>
 
@@ -108,12 +118,12 @@ $FOOTER=<<<_END_
 		</div> <!-- /container -->
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="http://haf.jp/~butaijyuku/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="${ROOT_URL}js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 
-		<script src="http://haf.jp/~butaijyuku/js/vendor/bootstrap.min.js"></script>
+		<script src="${ROOT_URL}js/vendor/bootstrap.min.js"></script>
 
-		<script src="http://haf.jp/~butaijyuku/js/plugins.js"></script>
-		<script src="http://haf.jp/~butaijyuku/js/main.js"></script>
+		<script src="${ROOT_URL}js/plugins.js"></script>
+		<script src="${ROOT_URL}js/main.js"></script>
 
 		<script>
 			var _gaq = _gaq || [];
