@@ -12,17 +12,17 @@ $HEADER=<<<_END_
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 
-		<link rel="stylesheet" href="/theater-labo/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://haf.jp/~butaijyuku/css/bootstrap.min.css">
 		<style>
 			body {
 				padding-top: 60px;
 				padding-bottom: 40px;
 			}
 		</style>
-		<link rel="stylesheet" href="/theater-labo/css/bootstrap-responsive.min.css">
-		<link rel="stylesheet" href="/theater-labo/css/main.css">
+		<link rel="stylesheet" href="http://haf.jp/~butaijyuku/css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="http://haf.jp/~butaijyuku/css/main.css">
 
-		<script src="/theater-labo/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="http://haf.jp/~butaijyuku/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 		<!--[if lt IE 9]>
@@ -39,17 +39,17 @@ $HEADER=<<<_END_
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="/theater-labo/"><strong>シアターラボ札幌</strong> <small>プレ公演</small></a>
+					<a class="brand" href="http://haf.jp/~butaijyuku/"><strong>シアターラボ札幌</strong> <small>プレ公演</small></a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class=""><a href="/theater-labo/">ホーム</a></li>
-							<li class=""><a href="/theater-labo/about.html">シアターラボについて</a></li>
-							<li class=""><a href="/theater-labo/info.html">公演情報</a></li>
+							<li class=""><a href="http://haf.jp/~butaijyuku/">ホーム</a></li>
+							<li class=""><a href="http://haf.jp/~butaijyuku/about.html">シアターラボについて</a></li>
+							<li class=""><a href="http://haf.jp/~butaijyuku/info.html">公演情報</a></li>
 							<li class="dropdown ">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">作品紹介 <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li class=""><a href="/theater-labo/suzuki.html"><span class="nav-caption">柴幸男 × イトウワカナ</span><br/>「鈴木１４世」</a></li>
-									<li class=""><a href="/theater-labo/kanojo.html"><span class="nav-caption">泊篤志 × 小佐部明広</span><br/>「彼女のスープレックス」</a></li>
+									<li class=""><a href="http://haf.jp/~butaijyuku/suzuki.html"><span class="nav-caption">柴幸男 × イトウワカナ</span><br/>「鈴木１４世」</a></li>
+									<li class=""><a href="http://haf.jp/~butaijyuku/kanojo.html"><span class="nav-caption">泊篤志 × 小佐部明広</span><br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -59,7 +59,7 @@ $HEADER=<<<_END_
 									<li><a href="http://blog.livedoor.jp/labo_atelier/">劇団アトリエチーム<br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
-							<li class="active"><a href="/theater-labo/mailform/">web予約</a></li>
+							<li class="active"><a href="http://haf.jp/~butaijyuku/mailform/">web予約</a></li>
 						</ul>
 					</div>
 				</div>
@@ -70,10 +70,10 @@ $HEADER=<<<_END_
 
 			<div class="row">
 							<div class="span7">
-					<img src="/theater-labo/img/logo.png" />
+					<img src="http://haf.jp/~butaijyuku/img/logo.png" />
 				</div>
 				<div class="span5">
-					<img src="/theater-labo/img/date.png" style="margin-top:22px;" />
+					<img src="http://haf.jp/~butaijyuku/img/date.png" style="margin-top:22px;" />
 				</div>
 			</div>
 
@@ -108,12 +108,12 @@ $FOOTER=<<<_END_
 		</div> <!-- /container -->
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="/theater-labo/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="http://haf.jp/~butaijyuku/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 
-		<script src="/theater-labo/js/vendor/bootstrap.min.js"></script>
+		<script src="http://haf.jp/~butaijyuku/js/vendor/bootstrap.min.js"></script>
 
-		<script src="/theater-labo/js/plugins.js"></script>
-		<script src="/theater-labo/js/main.js"></script>
+		<script src="http://haf.jp/~butaijyuku/js/plugins.js"></script>
+		<script src="http://haf.jp/~butaijyuku/js/main.js"></script>
 
 		<script>
 			var _gaq = _gaq || [];
