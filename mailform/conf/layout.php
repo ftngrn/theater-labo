@@ -18,7 +18,7 @@ $HEADER=<<<_END_
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>[北海道舞台塾シアターラボ札幌 プレ公演] - web予約</title>
+		<title>[北海道舞台塾シアターラボ札幌] - web予約</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 
@@ -49,10 +49,11 @@ $HEADER=<<<_END_
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="${ROOT_URL}"><strong>シアターラボ札幌</strong> <small>プレ公演</small></a>
+					<a class="brand" href="${ROOT_URL}"><strong>シアターラボ札幌</strong></a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class=""><a href="${ROOT_URL}">ホーム</a></li>
+<!--
 							<li class=""><a href="${ROOT_URL}about.html">シアターラボについて</a></li>
 							<li class=""><a href="${ROOT_URL}info.html">公演情報</a></li>
 							<li class="dropdown ">
@@ -69,6 +70,7 @@ $HEADER=<<<_END_
 									<li><a href="http://blog.livedoor.jp/labo_atelier/">劇団アトリエチーム<br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
+-->
 							<li class="active"><a href="${ROOT_URL}mailform/">web予約</a></li>
 						</ul>
 					</div>
@@ -78,6 +80,7 @@ $HEADER=<<<_END_
 
 		<div class="container">
 
+<!--
 			<div class="row">
 							<div class="span7">
 					<img src="${ROOT_URL}img/logo.png" />
@@ -88,6 +91,7 @@ $HEADER=<<<_END_
 			</div>
 
 			<hr />
+-->
 _END_;
 
 $FOOTER=<<<_END_
@@ -96,9 +100,8 @@ $FOOTER=<<<_END_
 			<footer class="tape">
 				<dl class="dl-horizontal">
 					<dt>主催：</dt><dd>北海道舞台塾実行委員会、北海道、公益財団法人北海道文化財団</dd>
-					<dt>後援：</dt><dd>札幌市教育文化会館（財団法人札幌市芸術文化財団）</dd>
 					<dt>助成：</dt><dd>財団法人地域創造</dd>
-					<dt>問い合わせ：</dt><dd>北海道文化財団 TEL. 011-272-0501<br />9:00～17:30 土・日曜祝日定休</dd>
+					<dt>問い合わせ：</dt><dd>北海道舞台塾実行委員会事務局（公益財団法人北海道文化財団内） TEL. 011-272-0501<br />9:00～17:30 土・日曜祝日定休</dd>
 				</dl>
 				<dl class="dl-horizontal">
 					<dt></dt>
