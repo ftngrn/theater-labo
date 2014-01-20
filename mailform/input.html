@@ -5,42 +5,35 @@
 			<div class="row">
 				<div class="span8 offset2 tape">
 					<br />
-					<form method="post" action="index.php" enctype="multipart/form-data" class="form-horizontal">
+					<form method="post" action="index.php" enctype="multipart/form-data" class="form-horizontal" id="form">
 					<fieldset>
 
 						<div class="control-group">
 							<label class="control-label" for="inputType">券種</label>
 							<div class="controls">
-								<label class="radio">
+								<label class="radio" id="ticket-type-1">
 									<input type="radio" name="券種" value="1作品券" required {$checked.券種.1作品券} {$checked.default} />1作品券
 								</label>
-								<label class="radio">
-									<input type="radio" name="券種" value="2作品共通券" required {$checked.券種.2作品共通券}  />2作品共通券
+								<label class="radio" id="ticket-type-2">
+									<input type="radio" name="券種" value="2作品共通券" id="ticket-type-2" required {$checked.券種.2作品共通券}  />2作品共通券
 								</label>
 							</div>
 						</div>
 
 						<div class="control-group">
-							<label class="control-label" for="inputDate">公演日時</label>
-							<div class="controls">
+							<label class="control-label" for="inputDate" id="ticket-date-label">公演日時</label>
+							<div class="controls" id="ticket-date-1">
 								<select name="公演日時">
-									<option value="3/16(土)15時劇団-アトリエ" {$selected.公演日時.3/16(土)15時-劇団アトリエ}>3/16(土) 15時 劇団アトリエ</option>
-									<option value="3/16(土)18時-intro" {$selected.公演日時.3/16(土)18時-intro}>3/16(土) 18時 intro</option>
-									<option value="3/17(日)13時-intro" {$selected.公演日時.3/17(日)13時-intro}>3/17(日) 13時 intro</option>
-									<option value="3/17(日)16時-劇団アトリエ" {$selected.公演日時.3/17(日)16時-劇団アトリエ}>3/17(日) 16時 劇団アトリエ</option>
+									<option value="3/29(土)15:00-劇団アトリエ" {$selected.公演日時.3/29(土)15:00-劇団アトリエ}>3/29(土) 15:00 劇団アトリエ</option>
+									<option value="3/29(土)18:00-intro" {$selected.公演日時.3/29(土)18:00-intro}>3/29(土) 18:00 intro</option>
+									<option value="3/30(日)13:30-intro" {$selected.公演日時.3/30(日)13:30-intro}>3/30(日) 13:30 intro</option>
+									<option value="3/30(日)16:30-劇団アトリエ" {$selected.公演日時.3/30(日)16:30-劇団アトリエ}>3/30(日) 16:30 劇団アトリエ</option>
 								</select>
 							</div>
-						</div>
-
-						<div class="control-group">
-							<label class="control-label" for="inputDate2">2作品目の日時</label>
-							<div class="controls">
-								<select name="公演日時2">
-									<option value="" {$selected.公演日時2.-}>-</option>
-									<option value="3/16(土)15時-劇団アトリエ" {$selected.公演日時2.3/16(土)15時-劇団アトリエ}>3/16(土) 15時 劇団アトリエ</option>
-									<option value="3/16(土)18時-intro" {$selected.公演日時2.3/16(土)18時-intro}>3/16(土) 18時 intro</option>
-									<option value="3/17(日)13時-intro" {$selected.公演日時2.3/17(日)13時-intro}>3/17(日) 13時 intro</option>
-									<option value="3/17(日)16時-劇団アトリエ" {$selected.公演日時2.3/17(日)16時-劇団アトリエ}>3/17(日) 16時 劇団アトリエ</option>
+							<div class="controls" id="ticket-date-2" style="display:none;">
+								<select name="公演日時2" class="input-xlarge">
+									<option value="3/29(土)15:00-劇団アトリエ_18:00-intro" {$selected.公演日時2.3/29(土)15:00-劇団アトリエ_18:00-intro}>3/29(土) 15:00 劇団アトリエ - 18:00 intro</option>
+									<option value="3/30(日)13:30-intro_16:30-劇団アトリエ" {$selected.公演日時2.3/30(日)13:30-intro_16:30-劇団アトリエ}>3/30(日) 13:30 intro - 16:30 劇団アトリエ</option>
 								</select>
 							</div>
 						</div>
@@ -79,6 +72,7 @@
 							<div class="controls">
 								<input type="email" name="メールアドレス" value="{$メールアドレス}" required>
 								<input type="hidden" name="email[]" value="メールアドレス" />
+								<input type="hidden" name="required[]" value="メールアドレス" />
 								<span class="help-inline">※必須項目です</span>
 								{if:$email.メールアドレス}
 								<span class="help-inline">※{$email.メールアドレス}</span>
@@ -109,12 +103,65 @@
 							</div>
 
 							<div class="controls">
-								<button type="submit" class="btn btn-large btn-primary">入力内容を確認する</button>
+								<button type="button" class="btn btn-large btn-primary" id="form-submit-btn">入力内容を確認する</button>
 							</div>
 						</div>
 					</fieldset>
 					</form>
 				</div>
 			</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://aglio.yhsweb.jp/theater-labo/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<script>
+$(function() {
+	//console.log("loaded!");
+	var ttype = getTicketType();
+	if (ttype === 2) {
+		$('#ticket-date-1').hide();
+		$('#ticket-date-2').show();
+	} else {
+		$('#ticket-date-1').show();
+		$('#ticket-date-2').hide();
+	}
+
+	//券種によって日付セレクトボックスを切り替える
+	$('#ticket-type-1').click(function() {
+		$('#ticket-date-1').show();
+		$('#ticket-date-2').hide();
+		$('#ticket-date-label').text('公演日時');
+	});
+	$('#ticket-type-2').click(function() {
+		$('#ticket-date-1').hide();
+		$('#ticket-date-2').show();
+		$('#ticket-date-label').text('2作品共通券の公演日時');
+	});
+
+	$('#form-submit-btn').click(function() {
+		//console.log("submit?");
+		var ttype = getTicketType();
+		if (ttype === 2) {
+			//console.log("1作品券の公演日時を消す");
+			$('#ticket-date-1 select').attr('disabled', 'disabled').val('');
+		} else {
+			//console.log("2作品共通券の公演日時を消す");
+			$('#ticket-date-2 select').attr('disabled', 'disabled').val('');
+		}
+
+		$('#form').submit();
+	});
+});
+function getTicketType() {
+	var type = 1;
+	var type_str = $('input[name="券種"]:checked').val();
+	//console.log(type_str);
+	if (type_str === "1作品券") {
+		type = 1;
+	} else {
+		type = 2;
+	}
+	return type;
+}
+</script>
 
 {$FOOTER}
