@@ -13,18 +13,18 @@ body {
 	/* background-image: url('../img/b_body2.jpg'); */
 	background-color: #f0c060;
 	background-image: url(../img/redcurtain.jpg);
+	color: #fcfcfc;
 }
-h2 {
-	color: #3445AE;
-	text-shadow: 1px 1px 1px rgba(128,128,128,0.25);
+h1,h2,h3,h4 {
+	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
 hr {
 	border: 0;
 	height: 1px;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.1), rgba(0,0,0,0.25), rgba(0,0,0,0.1));
-	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0.1), rgba(0,0,0,0.25), rgba(0,0,0,0.1));
-	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0.1), rgba(0,0,0,0.25), rgba(0,0,0,0.1));
-	background-image:      -o-linear-gradient(left, rgba(0,0,0,0.1), rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,0.25), rgba(255,255,255,0.1));
+	background-image:    -moz-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,0.25), rgba(255,255,255,0.1));
+	background-image:     -ms-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,0.25), rgba(255,255,255,0.1));
+	background-image:      -o-linear-gradient(left, rgba(255,255,255,0.1), rgba(255,255,255,0.25), rgba(255,255,255,0.1));
 }
 
 /* 背景のカーテン画像 */
@@ -71,7 +71,12 @@ div.container {
 }
 
 .tape {
-	background-color: rgba(224,224,224, 0.6);
+	background-color: rgba(224,224,224, 0.95);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.tape_dark {
+	background-color: rgba(224,224,224, 0.45);
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -82,7 +87,7 @@ footer {
 }
 footer p {
 	font-size: 90%;
-	color: #888;
+	color: #555;
 }
 
 .profile {
