@@ -13,6 +13,7 @@ body {
 	/* background-image: url('../img/b_body2.jpg'); */
 	background-color: #000000;
 	color: #fcfcfc;
+	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
 h1,h2,h3,h4 {
 	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
@@ -48,7 +49,6 @@ img.bg, div.bg {
 div.container {
 	position: relative;
 }
-
 .nav-caption {
 	font-size: 80%;
 	color: #888;
@@ -58,8 +58,19 @@ div.container {
 }
 .box {
 	margin-bottom: 20px;
-	padding: 5px 0px 10px;
+	padding: 5px 0px;
 }
+.thumbnail-r {
+	margin: 0 10px 0 5px;
+}
+img.thumbnail-r {
+	width: 200px;
+}
+.dark {
+	color: #222222;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.25);
+}
+
 .topics {
 	background-color: #EEEEEE;
 	border-radius: 3px 3px 3px 3px;
