@@ -12,6 +12,7 @@ body {
 	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	/* background-image: url('../img/b_body2.jpg'); */
 	background-color: #f0c060;
+	background-image: url(../img/redcurtain.jpg);
 }
 h2 {
 	color: #3445AE;
@@ -25,6 +26,30 @@ hr {
 	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0.1), rgba(0,0,0,0.25), rgba(0,0,0,0.1));
 	background-image:      -o-linear-gradient(left, rgba(0,0,0,0.1), rgba(0,0,0,0.25), rgba(0,0,0,0.1));
 }
+
+/* 背景のカーテン画像 */
+img.bg, div.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	/* Set up positioning */
+	position: fixed;
+	/* またはabsolute; */
+	top: 40px;
+	left: 0;
+}
+@media screen and (max-width: 1024px){
+	img.bg, div.bg {
+	left: 50%;
+	margin-left: -512px; }
+}
+div.container {
+	position: relative;
+}
+
 .nav-caption {
 	font-size: 80%;
 	color: #888;
