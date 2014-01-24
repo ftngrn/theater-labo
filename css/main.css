@@ -11,8 +11,7 @@
 body {
 	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	/* background-image: url('../img/b_body2.jpg'); */
-	background-color: #f0c060;
-	background-image: url(../img/redcurtain.jpg);
+	background-color: #000000;
 	color: #fcfcfc;
 }
 h1,h2,h3,h4 {
