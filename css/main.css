@@ -53,6 +53,13 @@ div.container {
 	font-size: 80%;
 	color: #888;
 }
+.radius {
+	border-radius: 3px 3px 3px 3px;
+}
+.box {
+	margin-bottom: 20px;
+	padding: 5px 0px 10px;
+}
 .topics {
 	background-color: #EEEEEE;
 	border-radius: 3px 3px 3px 3px;
