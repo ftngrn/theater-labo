@@ -1,0 +1,13 @@
+bootstrap/
+img/*
+.htaccess
+_config.html
+php.cgi
+mailform/conf/
+mailform/lib/
+mailform/logs/
+mailform/temp/
+mailform/README.md
+mailform/confirm_kobetsu.html
+mailform/index.php
+
