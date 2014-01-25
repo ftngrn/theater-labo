@@ -53,7 +53,6 @@ $HEADER=<<<_END_
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class=""><a href="${ROOT_URL}">ホーム</a></li>
-<!--
 							<li class=""><a href="${ROOT_URL}about.html">シアターラボについて</a></li>
 							<li class=""><a href="${ROOT_URL}info.html">公演情報</a></li>
 							<li class="dropdown ">
@@ -70,7 +69,6 @@ $HEADER=<<<_END_
 									<li><a href="http://blog.livedoor.jp/labo_atelier/">劇団アトリエチーム<br/>「彼女のスープレックス」</a></li>
 								</ul>
 							</li>
--->
 							<li class="active"><a href="${ROOT_URL}mailform/">web予約</a></li>
 						</ul>
 					</div>
@@ -78,20 +76,17 @@ $HEADER=<<<_END_
 			</div>
 		</div>
 
+		<img class="bg" src="${ROOT_URL}img/redcurtain_dark.jpg" />
+		<div class="bg"></div>
 		<div class="container">
 
-<!--
 			<div class="row">
-							<div class="span7">
-					<img src="${ROOT_URL}img/logo.png" />
-				</div>
-				<div class="span5">
-					<img src="${ROOT_URL}img/date.png" style="margin-top:22px;" />
+				<div class="span12 pull-center lights">
+					<img src="${ROOT_URL}img/lights.png" class="" />
 				</div>
 			</div>
 
-			<hr />
--->
+			<p>&nbsp;</p>
 _END_;
 
 $FOOTER=<<<_END_
