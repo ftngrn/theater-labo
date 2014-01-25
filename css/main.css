@@ -56,6 +56,9 @@ div.container {
 	font-size: 80%;
 	color: #888;
 }
+.nav .dropdown-menu li {
+	text-shadow: none;
+}
 .radius {
 	border-radius: 3px 3px 3px 3px;
 }
