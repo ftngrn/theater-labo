@@ -49,6 +49,9 @@ img.bg, div.bg {
 div.container {
 	position: relative;
 }
+.lights {
+	margin-top: -22px;
+}
 .nav-caption {
 	font-size: 80%;
 	color: #888;
