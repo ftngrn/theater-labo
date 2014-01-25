@@ -1,6 +1,6 @@
 <?php
-define('PUB_URL_ENABLED', false);
-define('PUB_URL', 'http://haf.jp/~butajyuku/');
+define('PUB_URL_ENABLED', true);
+define('PUB_URL', 'http://haf.jp/~butaijyuku/');
 define('FORM_ROOT_URL', 'http://aglio.yhsweb.jp/theater-labo/');
 
 $ROOT_URL = FORM_ROOT_URL;
