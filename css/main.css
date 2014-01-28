@@ -52,6 +52,14 @@ div.container {
 .lights {
 	margin-top: -20px;
 }
+@media screen and (max-width: 979px){
+	body {
+		background-color: #BB2222;
+	}
+	img.bg, div.bg {
+		display: none;
+	}
+}
 .nav-caption {
 	font-size: 80%;
 	color: #888;
