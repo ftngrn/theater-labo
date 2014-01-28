@@ -81,7 +81,7 @@ $HEADER=<<<_END_
 		<div class="container">
 
 			<div class="row">
-				<div class="span12 pull-center lights">
+				<div class="span12 text-center lights">
 					<img src="${ROOT_URL}img/lights.png" class="" />
 				</div>
 			</div>
