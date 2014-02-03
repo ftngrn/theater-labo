@@ -23,6 +23,7 @@ h1 {
 	color: #BB2222;
 	font-size: 24px;
 	font-family:"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
+	text-shadow: none;
 	position: fixed;
 	top: -10px;
 	z-index: -1;
