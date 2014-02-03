@@ -18,6 +18,15 @@ body {
 h1,h2,h3,h4 {
 	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
+/* h1はデザイン上見えない位置に置く */
+h1 {
+	color: #BB2222;
+	font-size: 24px;
+	font-family:"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",serif;
+	position: fixed;
+	top: -10px;
+	z-index: -1;
+}
 hr {
 	border: 0;
 	height: 1px;
