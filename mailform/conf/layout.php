@@ -18,8 +18,9 @@ $HEADER=<<<_END_
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>[北海道舞台塾シアターラボ札幌] - web予約</title>
-		<meta name="description" content="">
+		<title>[北海道舞台塾 シアターラボ札幌] - web予約</title>
+		<meta name="keywords" content="舞台塾,シアターラボ,北海道,札幌,演劇,舞台,ドラマドクター,イトウワカナ,柴幸男,小佐部明広,泊篤志,intro,イントロ,劇団アトリエ,鈴木14世,彼女のスープレックス" />
+		<meta name="description" content="北海道舞台塾 シアターラボ札幌 の公式Webサイト。web予約フォーム。">
 		<meta name="viewport" content="width=device-width">
 
 		<link rel="stylesheet" href="${ROOT_URL}css/bootstrap.min.css">
@@ -79,6 +80,8 @@ $HEADER=<<<_END_
 		<img class="bg" src="${ROOT_URL}img/redcurtain_dark.jpg" />
 		<div class="bg"></div>
 		<div class="container">
+
+			<h1>web予約フォーム</h1>
 
 			<div class="row">
 				<div class="span12 text-center lights">
