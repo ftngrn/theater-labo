@@ -26,7 +26,7 @@ h1 {
 	text-shadow: none;
 	position: fixed;
 	top: -10px;
-	z-index: -1;
+	z-index: -10;
 }
 hr {
 	border: 0;
@@ -50,6 +50,7 @@ img.bg, div.bg {
 	/* またはabsolute; */
 	top: 40px;
 	left: 0;
+	z-index: -1;
 }
 @media screen and (max-width: 1024px){
 	img.bg, div.bg {
