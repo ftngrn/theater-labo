@@ -171,5 +171,15 @@ footer p {
 	font-weight: bold;
 	margin-left: 10px;
 }
-
+.cast_staff {
+	color: #ffd;
+	font-size: 110%;
+	text-shadow: 2px 1px 0px rgba(32,32,32,1.0);
+	text-align: center;
+}
+.caution {
+	color: #ddd;
+	font-size: 85%;
+	text-shadow: 2px 1px 0px rgba(32,32,32,0.5);
+}
 
