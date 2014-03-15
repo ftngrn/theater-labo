@@ -15,6 +15,50 @@ body {
 	color: #fcfcfc;
 	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
+
+body.dialogue {
+	background-color: #fcfcf3;
+	color: #333;
+	text-shadow: none;
+}
+.dialogue .talk {
+	font-size: 14px;
+	letter-spacing: 1px;
+	background-color: #fff;
+	border-radius: 6px;
+}
+.dialogue .talk dt {
+	font-weight: normal;
+	line-height: 22px;
+}
+.dialogue .talk dd {
+	margin-bottom: 2em;
+	margin-right: 2em;
+	line-height: 22px;
+}
+.dialogue .notice {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.dialogue .notice dt.number {
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+}
+.dialogue .notice dt {
+	width: 4em;
+	font-weight: normal;
+	line-height: 18px;
+}
+.dialogue .notice dd {
+	margin-left: 5em;
+	margin-bottom: 1em;
+	line-height: 18px;
+}
+
+
+
+
 h1,h2,h3,h4 {
 	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
