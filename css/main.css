@@ -70,6 +70,12 @@ body.dialogue {
 	display: block;
 	height: 40px;
 }
+.dialogue .date {
+	color: #666;
+	font-size: 12px;
+	text-align: right;
+	margin: 40px 20px;
+}
 
 
 h1,h2,h3,h4 {
