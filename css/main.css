@@ -21,6 +21,10 @@ body.dialogue {
 	color: #333;
 	text-shadow: none;
 }
+.dialogue h2 {
+	font-size: 35px;
+	letter-spacing: 1px;
+}
 .dialogue .talk {
 	font-size: 14px;
 	letter-spacing: 1px;
