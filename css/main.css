@@ -55,8 +55,21 @@ body.dialogue {
 	margin-bottom: 1em;
 	line-height: 18px;
 }
-
-
+.dialogue div.thumbnail {
+	width: 75%;
+}
+.dialogue em {
+	border-bottom: dashed 1px #999;
+	font-weight: bold;
+	font-style: normal;
+}
+.dialogue .notice_link {
+	font-size: 85%;
+}
+.dialogue .notice_id {
+	display: block;
+	height: 40px;
+}
 
 
 h1,h2,h3,h4 {
