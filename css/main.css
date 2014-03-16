@@ -26,9 +26,9 @@ body.dialogue {
 	letter-spacing: 1px;
 	background-color: #fff;
 	border-radius: 6px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 .dialogue .talk dt {
-	font-weight: normal;
 	line-height: 22px;
 }
 .dialogue .talk dd {
@@ -71,6 +71,9 @@ h1 {
 	position: fixed;
 	top: -10px;
 	z-index: -10;
+}
+.dialogue h1 {
+	color: #fcfcf3;
 }
 hr {
 	border: 0;
