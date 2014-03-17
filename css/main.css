@@ -20,6 +20,7 @@ body.dialogue {
 	background-color: #fcfcf3;
 	color: #333;
 	text-shadow: none;
+	padding-top: 0;
 }
 .dialogue h2 {
 	font-size: 35px;
