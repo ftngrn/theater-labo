@@ -65,6 +65,10 @@ body.dialogue {
 	margin-bottom: 1em;
 	line-height: 20px;
 }
+.dialogue .notice dd.no_name {
+	margin-left: 3em;
+	margin-bottom: 2em;
+}
 .dialogue div.thumbnail {
 	width: 75%;
 }
