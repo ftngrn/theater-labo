@@ -1,0 +1,113 @@
+
+body.dialogue {
+	background-color: #fcfcf3;
+	color: #333;
+	text-shadow: none;
+	padding-top: 0;
+}
+.dialogue h1 {
+	color: #fcfcf3;
+}
+.dialogue h2 {
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+.dialogue .talk {
+	font-size: 14px;
+	letter-spacing: 1px;
+	background-color: #fff;
+	border-radius: 6px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+	padding: 10px 0;
+}
+.dialogue .talk dt {
+	line-height: 22px;
+}
+.dialogue .talk dd {
+	margin-bottom: 2em;
+	margin-right: 2em;
+	line-height: 22px;
+}
+.dialogue .notice {
+	color: #555;
+	font-size: 13.5px;
+	letter-spacing: 1px;
+}
+.dialogue .notice dl {
+	margin-bottom: 6em;
+}
+.dialogue .notice dt.number {
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+}
+.dialogue .notice dt {
+	width: 4em;
+	font-weight: normal;
+	line-height: 20px;
+}
+.dialogue .notice dd {
+	margin-left: 5em;
+	margin-bottom: 1em;
+	line-height: 20px;
+}
+.dialogue .notice dd.no_name {
+	margin-left: 3em;
+	margin-bottom: 2em;
+}
+.dialogue div.thumbnail {
+	width: 75%;
+}
+.dialogue div.thumbnail p {
+	color: #888;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.dialogue em {
+	border-bottom: dashed 1px #999;
+	font-weight: bold;
+	font-style: normal;
+}
+.dialogue .notice_link {
+	font-size: 85%;
+}
+.dialogue .notice_id {
+	display: block;
+}
+.dialogue .date {
+	color: #666;
+	font-size: 12px;
+	text-align: right;
+	margin: 0 20px;
+}
+.arrow_box {
+	position: relative;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 1.2em 0;
+	font-size: 15px;
+	text-align: center;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #ffffff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.arrow_box:before {
+	border-color: rgba(153, 153, 153, 0);
+	border-left-color: #999999;
+	border-width: 13px;
+	margin-top: -13px;
+}
