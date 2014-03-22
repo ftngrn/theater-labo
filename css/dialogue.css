@@ -154,32 +154,16 @@ body.dialogue {
 
 /* 対談装飾 */
 .arrow_box {
-	position: relative;
-	background: #ffffff;
-	border: 1px solid #cccccc;
-	padding: 1.2em 0;
-	font-size: 15px;
-	text-align: center;
-}
-.arrow_box:after, .arrow_box:before {
-	left: 100%;
-	top: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+	background-color: #fff;
+	border-radius: 20px;
+	margin-top: -0.8em;
+	margin-left: -0.5em;
+	padding: 0.8em 0.5em 0.8em 0.1em;
+	color: #000;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .arrow_box:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-left-color: #ffffff;
-	border-width: 10px;
-	margin-top: -10px;
-}
-.arrow_box:before {
-	border-color: rgba(153, 153, 153, 0);
-	border-left-color: #999999;
-	border-width: 13px;
-	margin-top: -13px;
+	content: '▼';
+	color: #fff;
+	position: absolute;
 }
