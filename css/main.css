@@ -16,87 +16,6 @@ body {
 	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
 
-body.dialogue {
-	background-color: #fcfcf3;
-	color: #333;
-	text-shadow: none;
-	padding-top: 0;
-}
-.dialogue h2 {
-	font-size: 35px;
-	letter-spacing: 1px;
-}
-.dialogue .talk {
-	font-size: 14px;
-	letter-spacing: 1px;
-	background-color: #fff;
-	border-radius: 6px;
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
-	padding: 10px 0;
-}
-.dialogue .talk dt {
-	line-height: 22px;
-}
-.dialogue .talk dd {
-	margin-bottom: 2em;
-	margin-right: 2em;
-	line-height: 22px;
-}
-.dialogue .notice {
-	color: #555;
-	font-size: 13.5px;
-	letter-spacing: 1px;
-}
-.dialogue .notice dl {
-	margin-bottom: 6em;
-}
-.dialogue .notice dt.number {
-	font-size: 14px;
-	text-align: left;
-	font-weight: bold;
-}
-.dialogue .notice dt {
-	width: 4em;
-	font-weight: normal;
-	line-height: 20px;
-}
-.dialogue .notice dd {
-	margin-left: 5em;
-	margin-bottom: 1em;
-	line-height: 20px;
-}
-.dialogue .notice dd.no_name {
-	margin-left: 3em;
-	margin-bottom: 2em;
-}
-.dialogue div.thumbnail {
-	width: 75%;
-}
-.dialogue div.thumbnail p {
-	color: #888;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 1.5;
-}
-.dialogue em {
-	border-bottom: dashed 1px #999;
-	font-weight: bold;
-	font-style: normal;
-}
-.dialogue .notice_link {
-	font-size: 85%;
-}
-.dialogue .notice_id {
-	display: block;
-}
-.dialogue .date {
-	color: #666;
-	font-size: 12px;
-	text-align: right;
-	margin: 0 20px;
-}
-
-
 h1,h2,h3,h4 {
 	text-shadow: 1px 1px 1px rgba(60,60,28,0.5);
 }
@@ -109,9 +28,6 @@ h1 {
 	position: fixed;
 	top: -10px;
 	z-index: -10;
-}
-.dialogue h1 {
-	color: #fcfcf3;
 }
 hr {
 	border: 0;
