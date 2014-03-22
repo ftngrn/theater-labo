@@ -12,6 +12,8 @@ body.dialogue {
 	font-size: 35px;
 	letter-spacing: 1px;
 }
+
+/* 対談本文パート */
 .dialogue .talk {
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -28,9 +30,11 @@ body.dialogue {
 	margin-right: 2em;
 	line-height: 22px;
 }
+
+/* 対談脚注パート */
 .dialogue .notice {
 	color: #555;
-	font-size: 13.5px;
+	font-size: 12px;
 	letter-spacing: 1px;
 }
 .dialogue .notice dl {
@@ -44,12 +48,12 @@ body.dialogue {
 .dialogue .notice dt {
 	width: 4em;
 	font-weight: normal;
-	line-height: 20px;
+	line-height: 18px;
 }
 .dialogue .notice dd {
 	margin-left: 5em;
 	margin-bottom: 1em;
-	line-height: 20px;
+	line-height: 18px;
 }
 .dialogue .notice dd.no_name {
 	margin-left: 3em;
@@ -81,6 +85,9 @@ body.dialogue {
 	text-align: right;
 	margin: 0 20px;
 }
+
+
+/* 対談装飾 */
 .arrow_box {
 	position: relative;
 	background: #ffffff;
