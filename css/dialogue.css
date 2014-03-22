@@ -38,7 +38,7 @@ body.dialogue {
 	letter-spacing: 1px;
 }
 .dialogue .notice dl {
-	margin-bottom: 6em;
+	margin-bottom: 3em;
 }
 .dialogue .notice dt.number {
 	font-size: 14px;
@@ -86,6 +86,71 @@ body.dialogue {
 	margin: 0 20px;
 }
 
+/* 脚注の位置調整 */
+/* Large desktop */
+@media (min-width: 1200px) {
+	.suzuki #notice2 {
+		margin-top: 60em;
+	}
+	.suzuki #notice5 {
+		margin-top: 28em;
+	}
+	.suzuki #notice7 {
+		margin-top: 48em;
+	}
+
+	.kanojo #notice1 {
+		margin-top: 3em;
+	}
+	.kanojo #notice4 {
+		margin-top: 40em;
+	}
+	.kanojo #notice7 {
+		margin-top: 48em;
+	}
+	.kanojo #notice8 {
+		margin-top: 80em;
+	}
+}
+/* Normal desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+	.suzuki #notice2 {
+		margin-top: 55em;
+	}
+	.suzuki #notice7 {
+		margin-top: 28em;
+	}
+
+	.kanojo #notice1 {
+		margin-top: 2em;
+	}
+	.kanojo #notice4 {
+		margin-top: 18em;
+	}
+	.kanojo #notice7 {
+		margin-top: 40em;
+	}
+	.kanojo #notice8 {
+		margin-top: 70em;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.kanojo #notice7 {
+		margin-top: 34em;
+	}
+	.kanojo #notice8 {
+		margin-top: 70em;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
 
 /* 対談装飾 */
 .arrow_box {
